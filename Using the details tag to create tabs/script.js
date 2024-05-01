@@ -46,3 +46,14 @@ $(".details-tab").on("click", function (e) {
 		e.preventDefault();
 	}
 });
+
+
+// JavaScript Equalto Operators
+function equalto()
+{
+    let num=10;
+    if(num==="10")
+        return true;
+    else
+        return false;
+}
